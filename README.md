@@ -1,1 +1,1 @@
-Landing Page for porfolio
+Landing Page for portfolio
