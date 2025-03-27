@@ -1,48 +1,61 @@
-.box1{
+body {
+    margin: auto;
+}
+
+.box1 {
     background-color: #1f2937;
 }
-.header{
+
+.header {
     color: #f9faf8;
     display: flex;
     /* padding: 8px; */
     align-items: center;
     justify-content: space-around;
 }
-.header-logo{
+
+.header-logo {
     font-size: 24px;
     padding: 0;
     margin: 0;
 }
-.links{
+
+.links {
     display: flex;
     font-size: 18px;
     color: #e5e7eb;
 }
-ul{
+
+ul {
     list-style-type: none;
     gap: 16px;
     padding: 0px;
     margin: 0;
 }
-.body1{
+
+.body1 {
     display: flex;
     justify-content: center;
 }
-h1{
+
+h1 {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
 }
-.secondary-hero{
-    color:#e5e7eb;
+
+.secondary-hero {
+    color: #e5e7eb;
     font-size: 18px;
 }
-.content1{
+
+.content1 {
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: start;
 }
-button{
+
+button {
     background-color: #3882f6;
     border-radius: 12px;
     border: 2px solid #3882f6;
@@ -52,34 +65,86 @@ button{
     padding: 8px;
     margin: 8px;
 }
-.image1{
-    display:flex;
+
+.image1 {
+    display: flex;
 }
 
-.box2{
+.box2 {
     display: flex;
     flex-direction: column;
 }
-.information-header{
+
+.information-header {
     font-size: 36px;
-    font-weight:900;
+    font-weight: 900;
     color: #1f2937;
     display: flex;
     justify-content: center;
 }
-.array{
+
+.array {
     display: flex;
     justify-content: center;
 }
-.info1, .info2, .info3, .info4{
+
+.info1,
+.info2,
+.info3,
+.info4 {
     border-radius: 25px;
     border: 2px solid #3882f6;
     padding: 20px;
     width: 100px;
     height: 100px;
 }
-.stacked1, .stacked2, .stacked3, .stacked4{
+
+.stacked1,
+.stacked2,
+.stacked3,
+.stacked4 {
     display: flex;
     flex-direction: column;
     margin: 0 16px;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-er {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px;
+}
+
+.action-words {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    justify-self: start;
+}
+
+.action-signup {
+    border: 2px solid white;
+    display: flex;
+    justify-content: end;
 }
