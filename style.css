@@ -28,11 +28,58 @@ ul{
     display: flex;
     justify-content: center;
 }
+h1{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.secondary-hero{
+    color:#e5e7eb;
+    font-size: 18px;
+}
 .content1{
     display: flex;
     flex-direction: column;
     align-items:start;
 }
+button{
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: 2px solid #3882f6;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px;
+    margin: 8px;
+}
 .image1{
     display:flex;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.information-header{
+    font-size: 36px;
+    font-weight:900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+.array{
+    display: flex;
+    justify-content: center;
+}
+.info1, .info2, .info3, .info4{
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+.stacked1, .stacked2, .stacked3, .stacked4{
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
 }
