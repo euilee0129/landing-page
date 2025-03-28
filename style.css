@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    font-family: 'Roboto';
 }
 
 .box1 {
@@ -9,9 +10,9 @@ body {
 .header {
     color: #f9faf8;
     display: flex;
-    /* padding: 8px; */
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 16px;
 }
 
 .header-logo {
@@ -42,9 +43,14 @@ h1 {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
+    margin: 0;
+}
+.secondary-hero.h3{
+    margin: 0px;
 }
 
-.secondary-hero {
+.secondary-hero,
+.footer {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -68,6 +74,16 @@ button {
 
 .image1 {
     display: flex;
+    border: #838383;
+    background-color: #838588;
+    align-items: center;
+    padding: 64px;
+    margin: 16px;
+}
+.footer.h3{
+    display: flex;
+    text-align: center;
+    align-self: center;
 }
 
 .box2 {
