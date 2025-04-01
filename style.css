@@ -3,7 +3,8 @@ body {
     font-family: 'Roboto';
 }
 
-.box1 {
+.box1,
+.box5 {
     background-color: #1f2937;
 }
 
@@ -50,22 +51,22 @@ h1 {
 }
 
 .secondary-hero,
-.footer {
+.footer-text{
     color: #e5e7eb;
     font-size: 18px;
     max-width:500px;
-
 }
 
 .content1 {
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-right: 5%;
 }
 
 button {
     background-color: #3882f6;
-    border-radius: 12px;
+    border-radius: 9px;
     border: 2px solid #3882f6;
     color: white;
     text-align: center;
@@ -105,6 +106,7 @@ button {
 .array {
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
 .info1,
@@ -124,7 +126,9 @@ button {
 .stacked4 {
     display: flex;
     flex-direction: column;
-    margin: 0 16px;
+    /* margin: 0 16px; */
+    max-width:200px;
+    justify-content: center;
 }
 
 .quote-box {
@@ -135,11 +139,18 @@ button {
 }
 
 .quote-text {
-    font-size: 36px;
-    font-style: light italic;
-    color: #1f2937;
     display: flex;
     justify-content: center;
+    max-width:1000px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 10;
 }
 
 .quote-er {
@@ -147,23 +158,51 @@ button {
     justify-content: center;
     margin-left: 300px;
 }
+.box4{
+    display: flex;
+    justify-content: center;
+}
 
 .action-box {
     display: flex;
     justify-content: center;
     background-color: #3882f6;
+    padding: 0px 100px;
     margin: 100px;
+    gap:16px;
+    border-radius: 9px;
+    border: 2px solid #3882f6;
 }
 
 .action-words {
     display: flex;
     flex-direction: column;
     color: #e5e7eb;
-    justify-self: start;
+    justify-content: center;
 }
-
+.word1{
+    margin: 0;
+}
+.word2{
+    margin: 0;
+    font-size: small;
+    font-weight: light;
+}
+.action-button{
+    margin-left: 20%;
+}
 .action-signup {
     border: 2px solid white;
+    margin: 50px 0px;
+    padding: 5px 15px;
+    white-space: nowrap;
+}
+.box5{
+    padding: 4px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+}
+.footer-text{
+    font-weight:10;
+    font-size: smaller;
 }
