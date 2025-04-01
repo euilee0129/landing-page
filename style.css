@@ -46,13 +46,15 @@ h1 {
     margin: 0;
 }
 .secondary-hero.h3{
-    margin: 0px;
+    max-width:250px;
 }
 
 .secondary-hero,
 .footer {
     color: #e5e7eb;
     font-size: 18px;
+    max-width:500px;
+
 }
 
 .content1 {
@@ -79,6 +81,7 @@ button {
     align-items: center;
     padding: 64px;
     margin: 16px;
+    float: left;
 }
 .footer.h3{
     display: flex;
