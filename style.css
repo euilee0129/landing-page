@@ -142,8 +142,10 @@ button {
     display: flex;
     justify-content: center;
     max-width:1000px;
-    margin-left: 250px;
-    margin-bottom: 0px;
+    /* margin-left: 250px; */
+    /* margin-bottom: 0px; */
+    /* align-items: center; */
+    /* fix quotes to be centered */
 }
 .quote{
     font-size: 36px;
